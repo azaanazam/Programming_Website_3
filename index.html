@@ -12,14 +12,14 @@
     <div class="container1">
         <div class="nav">
             <!-- <div class="logo"> -->
-            <img src="image/Logo_1.png" alt="logo" style="height: 120px;;">
+            <img src="Logo_1.png" alt="logo" style="height: 120px;;">
             <!-- </div> -->
             <div class="links">
                 <ul id="ululul">
                     <li><a href="#NewAddmition">NewAddmition</a></li>
-                    <li><a href="#Portal">Portal</a></li>
+                    <li><a href="#Portal" onclick="showPortal ()">Portal</a></li>
                     <li><a href="#Quiz">Quiz</a></li>
-                    <li><a > <button class="btn4" id="btn4" onclick="hidehome(),goBack">Back</button>
+                    <li><a> <button class="btn4" id="btn4" onclick="hidehome(),goBack">Back</button>
                         </a></li>
                 </ul>
 
@@ -106,14 +106,14 @@
             <div>
                 <img src="image/Logo_1.png" alt="">
             </div>
-            
+
         </div>
 
 
 
 
         <div class="pic" id="home2">
-           <div>
+            <div>
                 <img src="image/Logo_1.png" alt="">
             </div>
 
@@ -141,7 +141,7 @@
 
         </div>
         <div class="pic" id="home3">
-               <div>
+            <div>
                 <img src="image/Logo_1.png" alt="">
             </div>
 
@@ -169,7 +169,7 @@
 
         </div>
         <div class="pic" id="home4">hello
-               <div>
+            <div>
                 <img src="image/Logo_1.png" alt="">
             </div>
 
@@ -196,6 +196,36 @@
             </div>
 
         </div>
+        <div class="portal" id="portal">
+            <div class="portalChild">
+                <div>
+                    <input type="text" placeholder="Enter your name" id="name" name="name">
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your Father name" id="Fname" name="father name">
+                </div>
+
+                <div>
+                    <!-- <label for="dateofbirth">Date of Birth:</label><br> -->
+                    <input type="date" id="dob" name="dateofbirth"  required><br>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email"  placeholder="Enter your Email" >
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                </div>
+                <button id="submit" onclick="submitForm()">submit</button>
+                </div>
+
+
+           
+
+        </div>
+
+
+
+
         <!-- <div><img src="image/Logo_1.png" alt=""></div>
     <div><img src="image/Logo_1.png" alt=""></div>
     <div><img src="image/Logo_1.png" alt=""></div>

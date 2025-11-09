@@ -50,7 +50,7 @@
     border-radius: 5px;
     border: 4px solid white;
     /* margin-top: 30px; */
-    
+
 }
 
 .links>ul>li {
@@ -171,53 +171,53 @@
     font-weight: bold;
 }
 
-#home1{
+#home1 {
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-     flex-direction: column;
-    
+    flex-direction: column;
+
 }
 
 
-#home2{
+#home2 {
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-     flex-direction: column;
-    
+    flex-direction: column;
+
 }
 
-#home3{
+#home3 {
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-     flex-direction: column;
-    
+    flex-direction: column;
+
 }
 
-#home4{
+#home4 {
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-     flex-direction: column;
-    
+    flex-direction: column;
+
 }
 
 
-#home1>div{
+#home1>div {
     margin-bottom: 30px;
 }
 
-#home3>div{
+#home3>div {
     margin-bottom: 30px;
 }
 
-#home3>div{
+#home3>div {
     margin-bottom: 30px;
 }
 
-#home4>div{
+#home4>div {
     margin-bottom: 30px;
 }
 
@@ -225,26 +225,83 @@
 #home1>div>img {
     height: 500px;
     width: 70vw;
-    
+
 }
 
 
 #home2>div>img {
     height: 500px;
     width: 70vw;
-    
+
 }
 
 
 #home3>div>img {
     height: 500px;
     width: 70vw;
-    
+
 }
 
 
 #home4>div>img {
     height: 500px;
     width: 70vw;
-    
+
+}
+
+.portal {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.portalChild {
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.portal>.portalChild>div>input {
+    height: 40px;
+    width: 400px;
+    margin-top: 5px;
+    margin: 13px;
+    margin-left: 35px;
+    padding-left: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 5px solid black;
+
+
+}
+
+
+#submit {
+    margin-left: 180px;
+    height: 40px;
+    width: 100px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.portal>.portalChild>div>input::placeholder {
+
+
+    color: white;
 }
